@@ -1,22 +1,25 @@
 *{
-	margin: 0px;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
     font-family: 'Open Sans', sans-serif;
 }
 #home_header {
-	position: fixed;
+    position: fixed;
     width:100%;
     background-color: #f0f05b;
     z-index: 1;
 }
 header a:hover{
+    border-bottom: 2px solid;
     color: #afa207;
     background-color:#2ad0ff;
 }
-header a:active{
+header a:focus{
+    border-bottom: 1px solid;
     color: #afa207;
-    background-color:black;
+    background-color:#2ad0ff;
 }
+
 .header_h1 {
     float: left;
     margin-left: 30px;
@@ -41,12 +44,13 @@ header nav a {
     
 }
 body { 
-	margin: 0; 
-	padding: 0; 
-	margin-right: 0px;
+    margin: 0; 
+    padding: 0; 
+    margin-right: 0px;
 }
 #hero_image1{
     background-color: #2ad0ff;
+    overflow: auto;
     height:601px;
     margin-top: 79px;
     float: left;
@@ -54,6 +58,7 @@ body {
    
 }
 #hero_image2{
+    overflow: auto;
     background-color: #afa207;
     height: 601px;
     float: right;
@@ -84,9 +89,9 @@ body {
     margin-top: 4%;
 }
 #aboutme{
-    position: absolute;
+    position: relative;
     width: 100%;
-    top: 677px;
+    top: 100%;
     overflow: auto;
      background-color: #fcea10;
 }
@@ -134,19 +139,23 @@ body {
 #detail tr td{
      border-bottom: 1px solid white;
      padding:3px;
-}#strip p{
+}#aboutme p{
     margin-top: 2%;
     margin-left: 39%;
-    font-size: 20px;
+    font-size: 130%;
     color: #4c3b3b;
+    margin-bottom: 2%;
+    max-height: 300px;
 }#gallery{
-     position: absolute;
+     position: relative;
     width: 100%;
-    top: 1450px;
+    top: 100%;
     overflow: auto;
      background-color: #f0f05b;
+
 }
 #gallery img{
+    border-radius: 3em;
     max-width: 300px;
     max-height: 300px;
     width: 300px;
@@ -166,78 +175,84 @@ body {
 #contact{
     background-color:#2ad0ff;
     width: 100%;
-    top: 2260px;
-    height: 700px;
-    position: absolute;
+    top: 100%;
+    overflow: auto;
+   
 }
 #cont_strip{
     background-color: #af063b;
     width: 100%;
-    position: absolute;
-    top: -80px;
     height: 80px;
 }
-.name{
-    border-radius: .6em;
-    opacity: 0.8;
-    position: absolute;
-    top : 50%;
-    left : 14%;
-    width:250px;
-    height:30px;
-}
-.email{
-    border-radius: .6em;
-    opacity: 0.8;
-    position: absolute;
-    top : 50%;
-    left : 42%;
-    width:500px;
-    height:30px;
-}
-.message{
-    border-radius: 1.2em;
-    opacity: .8;
-    position: absolute;
-    top : 60%;
-    left : 14%;
-    width:400px;
-    height:200px;
-}.submit{
-    background-color:rgba(205,193,197,0.8);
-    position: absolute;
-    top:93%;
-    left: 14%; 
-    width: 100px;
-    height: 30px;
-}
+
     #cont_strip b{
     color: #02b8dd;
     font-size: 70px;
 }
-#form{
-
-}
 #info{
     text-align: center;
-    position: relative;
-    font-size: 40px;
-    top: 37px;
+    font-size: 36px;
+    top: 95px;
 }#icon{
-    position: absolute;
-    top: 165px;
-    left: 345px;
+    margin-left: 26%;
 
 }
 #icon a img:hover{
+
    border-radius: 0em;
 }
 #icon img{
-    
+    border: 5px solid #c90859;
     max-width: 150px;
     max-height: 150px;
     width:100px;
     height: 100px;
     margin: 45px;
     border-radius: 50%;
+}#contact h1{
+   margin-left: 10%;
+    color: #8a3232;
+}
+#form{
+    display: inline;
+}#form textarea{
+    font-size: 16px;
+    opacity: .8;
+}#form textarea:focus{
+    border-radius: 0em;
+
+}
+
+#name{
+    opacity: 1em;
+    border-radius: 1.2em;
+width: 250px;
+    left: 51%;
+    position: relative;
+}
+#email{
+     border-radius: 1.2em;
+    width: 500px;
+    position: relative;
+    left: 31%;
+}
+#message{
+    border-radius: 1.2em;
+    position: relative;
+    left: 10%;
+    width:400px;
+    height:200px;
+}
+#submit{
+    background-color:rgba(205,193,197,0.8);
+   margin-left: 10%;
+   margin-bottom: 2%;
+    width: 100px;
+    height: 30px;
+}#submit:active {
+  box-shadow: inset 2px 2px 1px black,
+              inset 2px 3px 5px rgba(0,0,0,0.3),
+              inset -2px -3px 5px rgba(255,255,255,0.5);
+}#sunmit:focus, #submit:hover {
+  background-image: linear-gradient(to bottom right, #888, #eee);
 }
