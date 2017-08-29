@@ -1,0 +1,243 @@
+*{
+	margin: 0px;
+	padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+#home_header {
+	position: fixed;
+    width:100%;
+    background-color: #f0f05b;
+    z-index: 1;
+}
+header a:hover{
+    color: #afa207;
+    background-color:#2ad0ff;
+}
+header a:active{
+    color: #afa207;
+    background-color:black;
+}
+.header_h1 {
+    float: left;
+    margin-left: 30px;
+    margin-top: 42px;
+    color: #02b8dd;
+}
+.nav1{
+    margin-top: 32px;
+}
+header nav {
+    height: 100%;
+    float: right;
+}
+
+header nav a {
+    margin-top: 10px;
+    font-size: 155%;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #02b8dd;
+    
+}
+body { 
+	margin: 0; 
+	padding: 0; 
+	margin-right: 0px;
+}
+#hero_image1{
+    background-color: #2ad0ff;
+    height:601px;
+    margin-top: 79px;
+    float: left;
+    width: 40%;
+   
+}
+#hero_image2{
+    background-color: #afa207;
+    height: 601px;
+    float: right;
+    margin-top: 79px;
+    width: 60%;
+
+}
+#hero_my{
+    border-radius: 5em;
+    max-width: 66%;
+    max-height: 66%;
+    left: 80px;
+    top: 25px;
+    position: relative;
+}#hero1_h1{
+    position: absolute;
+    color: #c90859;
+    font-size: 335%;
+    margin-top: 3%;
+    margin-left: 2%;
+    max-width: 40%; 
+}
+ #hero_image2 p {
+    position: absolute;
+    margin-left: 5%;
+    font-size: 157%;
+    color: white;
+    margin-top: 4%;
+}
+#aboutme{
+    position: absolute;
+    width: 100%;
+    top: 677px;
+    overflow: auto;
+     background-color: #fcea10;
+}
+#aboutme_img{
+    float: left;
+    max-width: 100%;
+    max-height: 86px;
+    background-color: #af063b;
+    border-radius: 5em;
+}
+#strip{
+    height: 1010px;
+    width: 100%;
+}
+#strip-img{
+    background-color:#77082b;
+    width: 100%;
+    position: absolute;
+    top: 1px;
+
+}
+#strip_img{
+    width: 19%;
+    height: 32%;
+    max-width: 30%;
+    max-height: 30%;
+    border-radius: 5em;
+    margin-top: 8%;
+    margin-left: 11%;
+} #meta_data tr th {
+   border-bottom: 2px solid white;
+   font-size: 34px;
+   padding: 8px;
+}#meta_data{
+    margin-top: 5%;
+    margin-left: 8%;
+}#detail{
+    
+    margin-top: -48%;
+    margin-left: 54%;
+    font-size: 23px;
+    border-spacing: 7px;
+
+}
+#detail tr td{
+     border-bottom: 1px solid white;
+     padding:3px;
+}#strip p{
+    margin-top: 2%;
+    margin-left: 39%;
+    font-size: 20px;
+    color: #4c3b3b;
+}#gallery{
+     position: absolute;
+    width: 100%;
+    top: 1450px;
+    overflow: auto;
+     background-color: #f0f05b;
+}
+#gallery img{
+    max-width: 300px;
+    max-height: 300px;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}#gallery ul li{
+    display: inline;
+}
+#div1{
+    background-color: #af063b;
+    width: 100%;
+}
+#div1 b{
+    color: #02b8dd;
+    font-size: 70px;
+}
+#contact{
+    background-color:#2ad0ff;
+    width: 100%;
+    top: 2260px;
+    height: 700px;
+    position: absolute;
+}
+#cont_strip{
+    background-color: #af063b;
+    width: 100%;
+    position: absolute;
+    top: -80px;
+    height: 80px;
+}
+.name{
+    border-radius: .6em;
+    opacity: 0.8;
+    position: absolute;
+    top : 50%;
+    left : 14%;
+    width:250px;
+    height:30px;
+}
+.email{
+    border-radius: .6em;
+    opacity: 0.8;
+    position: absolute;
+    top : 50%;
+    left : 42%;
+    width:500px;
+    height:30px;
+}
+.message{
+    border-radius: 1.2em;
+    opacity: .8;
+    position: absolute;
+    top : 60%;
+    left : 14%;
+    width:400px;
+    height:200px;
+}.submit{
+    background-color:rgba(205,193,197,0.8);
+    position: absolute;
+    top:93%;
+    left: 14%; 
+    width: 100px;
+    height: 30px;
+}
+    #cont_strip b{
+    color: #02b8dd;
+    font-size: 70px;
+}
+#form{
+
+}
+#info{
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    top: 37px;
+}#icon{
+    position: absolute;
+    top: 165px;
+    left: 345px;
+
+}
+#icon a img:hover{
+   border-radius: 0em;
+}
+#icon img{
+    
+    max-width: 150px;
+    max-height: 150px;
+    width:100px;
+    height: 100px;
+    margin: 45px;
+    border-radius: 50%;
+}
